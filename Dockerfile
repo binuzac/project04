@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER SimpliLearn
+MAINTAINER SimpliLearn inc
 
 #ENV DEBIAN_FRONTEND=non-interactive
 RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
